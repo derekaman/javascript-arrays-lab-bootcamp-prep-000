@@ -34,3 +34,10 @@ function appendKitten(Broom) {
   var morekittens = [...kittens, Broom];
   return morekittens;
 }
+
+var kittens = ["Milo", "Otis", "Garfield"];
+
+function prependKitten(Arnold) {
+  var morekittens = [Arnold, ...kittens];
+  return morekittens;
+}
