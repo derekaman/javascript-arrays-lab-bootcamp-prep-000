@@ -10,6 +10,6 @@ function destructivelyAppendKitten(Ralph) {
 var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyPrependKitten(Bob) {
-  kittens.shift(Bob);
+  kittens.unshift(Bob);
   return kittens;
 }
