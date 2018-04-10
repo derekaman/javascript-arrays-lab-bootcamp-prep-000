@@ -41,3 +41,5 @@ function prependKitten(Arnold) {
   var morekittens = [Arnold, ...kittens];
   return morekittens;
 }
+
+var kittens = ["Milo", "Otis", "Garfield"];
