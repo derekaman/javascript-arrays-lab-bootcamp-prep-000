@@ -20,3 +20,10 @@ function destructivelyRemoveLastKitten(Garfield) {
   kittens.pop(Garfield);
   return kittens;
 }
+
+var kittens = ["Milo", "Otis", "Garfield"];
+
+function destructivelyRemoveFirstKitten(Milo) {
+  kittens.shift(Milo);
+  return kittens;
+}
