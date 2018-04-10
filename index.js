@@ -32,5 +32,5 @@ var kittens = ["Milo", "Otis", "Garfield"];
 
 function appendKitten(Broom) {
   var morekittens = [...kittens, Broom];
-  return morekittens
+  return morekittens;
 }
